@@ -57,7 +57,11 @@ curl -X POST "http://127.0.0.1:8000/chat" \
 Example response:
 ```
 {
-  "final_response": "The area surrounding 223 N 7th Ave, Phoenix, Arizona, has experienced various crime trends. Within the past year, there have been 345 reported incidents, with 147 being theft-related and 105 being disorderly conduct. Additionally, 43 burglaries and 25 assaults have been reported. The overall crime rate in the 85003 zip code is 15% higher than the national average. It's essential to exercise caution, especially at night, and be aware of your surroundings to minimize the risk of becoming a victim of crime."
+  "final_response": "The area surrounding 223 N 7th Ave, Phoenix, Arizona, has experienced various crime trends.
+Within the past year, there have been 345 reported incidents, with 147 being theft-related and 105 being disorderly conduct.
+Additionally, 43 burglaries and 25 assaults have been reported.
+The overall crime rate in the 85003 zip code is 15% higher than the national average.
+It's essential to exercise caution, especially at night, and be aware of your surroundings to minimize the risk of becoming a victim of crime."
 }
 ```
 
@@ -66,7 +70,5 @@ Example response:
 ## Notes
 
 - This version does not include map actions or visualization.
-
 - Responses unrelated to Phoenix return a polite error message.
-
 - Extend with additional tools or LLM settings by editing phoenix_agent.py.
